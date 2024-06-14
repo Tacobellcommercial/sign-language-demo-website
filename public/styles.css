@@ -371,3 +371,22 @@
 .breakdown p{
   font-family: "Ubuntu", sans-serif;
 }
+
+@media (max-width: 1200px){
+  .about p{
+    width: 80%;
+  }
+}
+
+@media (max-width: 570px){
+  .about p{
+    width: 90%;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (max-width: 400px){
+  .about p{
+    width: 100%;
+  }
+}
