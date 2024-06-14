@@ -1,0 +1,373 @@
+/*navbar*/
+
+.navbar-brand i{
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-up{
+  padding-top: 3%;
+  opacity: 0;
+}
+
+
+/*Home*/
+
+.header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 7% 15%;
+}
+
+.header h1, .header p{
+  color: white;
+  width: 50%;
+  transition: 1s all;
+  color: white;
+
+}
+
+.header h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.header p{
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+.header .btn{
+  margin-right: 1rem;
+}
+
+@media (max-width: 1450px){
+  .header h1, .header p{
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 1130px){
+  .header{
+    text-align: center;
+  }
+
+  .header h1, .header p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+  .header h1{
+    font-size: 2rem;
+  }
+
+  .header p{
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 760px){
+
+  .header h1{
+    font-size: 1.75rem;
+  }
+
+  .header p{
+    font-size: 0.9rem;
+  }
+
+  .header{
+    padding: 7% 5%;
+  }
+
+  .header h1, .header p{
+    width: 100%;
+  }
+}
+
+
+
+/*Skills Section*/
+
+.skills{
+  padding: 7%;
+  text-align: center;
+}
+
+.skills i{
+  font-size: 3.5rem;
+}
+
+.skills h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 1.85rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skills p{
+  font-family: "Roboto Mono", sans-serif;
+}
+
+
+@media (max-width: 1450px){
+  .skills h2{
+    font-size: 1.5rem;
+  }
+
+  .skills p{
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+@media (max-width: 1000px){
+  .skills .container{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+  }
+}
+
+@media (max-width: 430px){
+  .skills i{
+    font-size: 2.85rem;
+    margin-top: 1rem;
+  }
+  .skills h2{
+    font-size: 1.4rem;
+  }
+
+  .skills p{
+    font-size: 0.9rem;
+  }
+}
+
+/*How it Works Section*/
+
+.how-it-works{
+  padding: 2.5% 7%;
+  padding-bottom: 0;
+  background-color: #f5c842;
+  text-align: center;
+}
+
+.how-it-works h1{
+  text-align: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.how-it-works img{
+  width: 100%;
+  border-radius: 5%;
+  transition: 0.25s all;
+}
+
+.how-it-works img:hover{
+  width: 102.5%;
+}
+
+
+.how-it-works h2{
+  font-family: "Roboto Mono", sans-serif;
+  margin-top: 1rem;
+}
+
+.how-it-works p{
+  font-family: "Roboto", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.how-it-works div{
+  text-align: center;
+  padding-bottom: 3rem;
+  display: inline-table;
+  width: 25%;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media (max-width: 1615px){
+  .how-it-works div{
+    width: 35%;
+  }
+}
+
+@media (max-width: 1150px){
+  .how-it-works div{
+    width: 45%;
+  }
+}
+
+@media (max-width: 900px){
+  .how-it-works div{
+    width: 55%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 550px){
+  .how-it-works div{
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 400px){
+  .how-it-works div{
+    width: 75%;
+  }
+}
+
+@media (max-width: 327px){
+  .how-it-works div{
+    width: 100%;
+  }
+}
+
+
+/*CTA*/
+
+.cta{
+  padding: 7%;
+  text-align: center;
+}
+
+.cta h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+.cta p{
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 425px){
+  .cta h1{
+    font-size: 2.25rem;
+  }
+
+  .cta p{
+    font-size: 1.75rem;
+  }
+}
+
+
+
+
+/*DOWNLOAD SECTION*/
+
+.download-section{
+  text-align: center;
+  padding: 5%;
+}
+
+.download-section p{
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+.download-section #highlight-command{
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+  color: orange;
+}
+
+.download-section img{
+  width: 750px;
+  border-radius: 5%;
+  transition: 0.25s all;
+  padding: 0.5%;
+  margin-bottom: 2rem;
+}
+
+.download-section img:hover{
+  padding: 0%;
+}
+
+@media (max-width: 1530px){
+  .download-section img{
+    width: 600px;
+  }
+}
+
+@media (max-width: 800px){
+  .download-section img{
+    width: 400px;
+  }
+
+  .download-section #highlight-command{
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 430px){
+  .download-section img{
+    width: 300px;
+  }
+
+  .download-section #highlight-command{
+    font-size: 0.75rem;
+    font-family: "Roboto", sans-serif;
+  }
+
+  body{
+    overflow-x: hidden;
+  }
+}
+
+
+
+/*About Section*/
+
+.about{
+  text-align: center;
+  padding: 2.5%;
+}
+
+.about h1{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.about p{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+.breakdown{
+  padding: 2.5%;
+}
+
+.breakdown h2{
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: bolder;
+  margin-top: 2rem;
+}
+
+.breakdown p{
+  font-family: "Ubuntu", sans-serif;
+}
