@@ -10,9 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "ejs": "^3.1.10",
     "express": "^4.19.2"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Tacobellcommercial/sign-language-demo-website.git"
@@ -21,5 +21,6 @@
     "url": "https://github.com/Tacobellcommercial/sign-language-demo-website/issues"
   },
   "homepage": "https://github.com/Tacobellcommercial/sign-language-demo-website#readme",
+  "devDependencies": {},
   "description": ""
 }
